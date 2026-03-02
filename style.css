@@ -1,0 +1,127 @@
+body {
+	background-color: #634691;
+}
+@font-face {
+	font-family: Pricedown;
+	src: url('Pricedown Bl.otf');
+}
+.blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	text-align: center;
+}
+.header {
+	font-family: Pricedown;
+	font-size: 8vw;
+	color: white;
+	text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+@font-face {
+	font-family: Chalet;
+	src: url('chalet_londonnineteensixty.otf');
+}
+.infotext {
+	font-family: Chalet;
+	font-size: 3vw;
+	color: white;
+	margin-block: 15px;
+}
+.title-shadow {
+	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+.GTAtitle {
+	font-family: Pricedown;
+	letter-spacing: 1px;
+}
+@font-face {
+	font-family: Bank-Gothic;
+	src: url('Bank_Gothic_Medium(RUS BY LYAJKA)_0.ttf');
+}
+.ONLINE {
+	font-family: Bank-Gothic;
+	color: #ff0000;
+	letter-spacing: -0.1em;
+	background-color: black;
+	border-radius: 8px;
+}
+@font-face {
+	font-family: Minecraft-Title;
+	src: url('Minecraft Title.ttf');
+}
+.mctitle {
+	font-family: Minecraft-Title;
+	font-size: 2vw;
+	color: #a9a09d;
+	/*color: #aaa19e;*/
+	/*text-fill-color: transparent;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #aaa19e, #d7ccc9, #d7ccc7);*/
+}
+@font-face {
+	font-family: Minecraft-Under-Title;
+	src: url('MinecraftFive-Bold.ttf');
+}
+.mc-under-title {
+	font-family: Minecraft-Under-Title;
+	color: #a9a09d;
+	/*background-image: linear-gradient(to bottom, );*/
+}
+.tooltip-indicator {
+	font-size: 2vw;
+}
+@font-face {
+	font-family: Minecraft;
+	src: url('minecraft.ttf');
+}
+.tooltip {
+	position: relative;
+	cursor: help;
+}
+.tooltip-text {
+	visibility: hidden;
+	position: absolute;
+	font-family: Minecraft;
+	color: white;
+	font-size: 1.5vw;
+	background-color: black;
+	border-radius: 5px;
+	padding: 1vw;
+	left: 110%;
+}
+.tooltip:hover .tooltip-text {
+	visibility: visible;
+	z-index: 1;
+}
+.pic {
+	max-width: 70%;
+	max-height: 70%;
+}
+.link {
+	font-family: Signpainter;
+	font-size: 6vw;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+	margin-inline: 30%;
+}
+.link:hover {
+	color: #76ca70;
+}
+@font-face {
+	font-family: Signpainter;
+	src: url('signpainter_housescript.otf');
+}
+.temp-footer {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	width: 100%;
+	font-family: Chalet;
+	font-size: 3vw;
+	color: white;
+}
