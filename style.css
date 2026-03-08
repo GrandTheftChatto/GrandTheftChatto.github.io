@@ -1,3 +1,14 @@
+@media (pointer: fine) {
+	.infotext {
+		font-size: 3vw;
+	}
+}
+@media (pointer: coarse) {
+	.infotext {
+		font-size: 3.5vw;
+	}
+}
+
 body {
 	background-color: #634691;
 }
@@ -26,7 +37,6 @@ body {
 }
 .infotext {
 	font-family: Chalet;
-	font-size: 3vw;
 	color: white;
 	margin-block: 15px;
 }
