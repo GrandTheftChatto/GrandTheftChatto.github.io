@@ -15,12 +15,12 @@ body {
 }
 @font-face {
 	font-family: Pricedown;
-	src: url('Pricedown Bl.otf');
+	src: url('fonts/Pricedown Bl.otf');
 }
 .blocks {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/*justify-content: center;*/
 	gap: 2vh;
 	text-align: center;
 }
@@ -41,7 +41,7 @@ body {
 }
 @font-face {
 	font-family: Chalet;
-	src: url('chalet_londonnineteensixty.otf');
+	src: url('fonts/chalet_londonnineteensixty.otf');
 }
 .infotext {
 	font-family: Chalet;
@@ -57,7 +57,7 @@ body {
 }
 @font-face {
 	font-family: Bank-Gothic;
-	src: url('Bank_Gothic_Medium(RUS BY LYAJKA)_0.ttf');
+	src: url('fonts/Bank_Gothic_Medium(RUS BY LYAJKA)_0.ttf');
 }
 .ONLINE {
 	font-family: Bank-Gothic;
@@ -68,7 +68,7 @@ body {
 }
 @font-face {
 	font-family: Minecraft-Title;
-	src: url('Minecraft Title.ttf');
+	src: url('fonts/Minecraft Title.ttf');
 }
 .mctitle {
 	font-family: Minecraft-Title;
@@ -82,7 +82,7 @@ body {
 }
 @font-face {
 	font-family: Minecraft-Under-Title;
-	src: url('MinecraftFive-Bold.ttf');
+	src: url('fonts/MinecraftFive-Bold.ttf');
 }
 .mc-under-title {
 	font-family: Minecraft-Under-Title;
@@ -94,7 +94,7 @@ body {
 }
 @font-face {
 	font-family: Minecraft;
-	src: url('minecraft.ttf');
+	src: url('fonts/minecraft.ttf');
 }
 .tooltip {
 	position: relative;
@@ -117,7 +117,7 @@ body {
 }
 @font-face {
 	font-family: Signpainter;
-	src: url('signpainter_housescript.otf');
+	src: url('fonts/signpainter_housescript.otf');
 }
 .signpainter {
 	font-family: Signpainter;
@@ -163,6 +163,22 @@ body {
 }
 .steam:hover {
 	color: #132e62;
+}
+.gmail:hover {
+	color: #008736;
+	cursor: pointer;
+}
+.copied {
+	position: fixed;
+	bottom: 0.5rem;
+	right: 50%;
+	transform: translateX(50%);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.copied-show {
+	opacity: 1;
+	transition: opacity 0.3s;
 }
 .temp-footer {
 	position: fixed;
